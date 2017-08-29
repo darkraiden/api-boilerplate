@@ -1,0 +1,9 @@
+version: '2.1'
+services:
+  api:
+    build:
+      context: ./
+    ports:
+      - 8888:80
+    # environment:
+    #   - yourEnvVarsHere
